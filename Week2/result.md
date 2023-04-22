@@ -8,4 +8,4 @@
 
 ## Revenue By Channel And Month
 ### 실행결과
-![image](https://user-images.githubusercontent.com/41178045/233771370-8a2d9610-950e-4c5c-b732-e2eca2873612.png)
+![image](https://user-images.githubusercontent.com/41178045/232136819-ac0414c3-cf99-499f-8eef-76be9baae4b9.png)
