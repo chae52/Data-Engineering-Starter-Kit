@@ -14,3 +14,12 @@ FROM
 GROUP BY userid
 ORDER BY GrossRevenue DESC
 limit 10;
+
+/* 개선
+SELECT userid,sum(amount) as GrossRevenue
+FROM raw_data.user_session_channel usc 
+JOIN raw_data.session_transaction str ON usc.sessionid = str.sessionid
+GROUP BY userid
+ORDER BY GrossRevenue DESC
+limit 10;
+*/
