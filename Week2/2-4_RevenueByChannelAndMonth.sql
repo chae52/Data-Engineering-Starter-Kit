@@ -10,4 +10,5 @@ FROM raw_data.user_session_channel usc
 JOIN raw_data.session_transaction str ON usc.sessionid = str.sessionid
 JOIN raw_data.session_timestamp st ON usc.sessionid = st.sessionid
 GROUP BY CHANNEL, ym
-ORDER BY YM, channel;
+ORDER BY YM;
+--LIMIT 10;
